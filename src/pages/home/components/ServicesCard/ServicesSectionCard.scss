@@ -1,0 +1,36 @@
+@import "../../../../index.scss";
+
+.services-section-card-container {
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 410px;
+  height: 370px;
+
+  .title {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .discover-more {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    gap: 10px;
+    color: $secondary;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .services-section-card-container {
+    height: 270px;
+  }
+}

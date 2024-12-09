@@ -1,0 +1,238 @@
+@import "../../index.scss";
+
+.services-container {
+  .hero-section {
+    padding: 0 0 0 7%;
+    margin-top: 100px;
+
+    .hero-content {
+      width: 5500px;
+      gap: 40px;
+
+      .texts {
+        gap: 35px;
+
+        .description {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .trainagles-separator {
+    position: relative;
+    width: 100%;
+
+    .triangles-wrapper {
+      max-width: 55vw;
+
+      .trinagle {
+        height: calc(100vh - 592px);
+        max-height: 200px;
+      }
+    }
+
+    .left-section {
+      background-color: $gray;
+      height: calc(100vh - 592px);
+      max-height: 200px;
+      width: 100%;
+    }
+  }
+
+  .services-big-card {
+    padding: 100px 7%;
+
+    .content {
+      max-width: 680px;
+
+      .number {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+
+      .sub-section-wrapper {
+        margin-top: 20px;
+      }
+    }
+
+    .main-icon {
+      //   width: 200px;
+      //   height: 200px;
+    }
+  }
+
+  .industry-expertise {
+    padding: 100px 20%;
+    background-color: $gray;
+  }
+
+  .why-choose-section {
+    background-color: white;
+    padding: 100px 7%;
+
+    .key-advs {
+      font-size: 20px;
+    }
+
+    .card-wrapper {
+      background-color: $gray;
+      padding: 50px 20px;
+      border-radius: 6px;
+    }
+  }
+
+  .how-it-works-section {
+    position: relative;
+    background-color: $primary;
+
+    .triangles {
+      position: absolute;
+      transform: scaleY(-1);
+      top: -1px;
+    }
+
+    .horizontal-line {
+      border-bottom: 2px solid black;
+      margin: 20px 7% 20px;
+    }
+
+    .sections-wrapper {
+      margin: 0 7%;
+      position: relative;
+
+      .step {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        padding: 3px;
+        height: 25px;
+        width: 25px;
+        color: white;
+        top: -35px;
+        position: absolute;
+
+        &.primary {
+          background-color: $primary;
+        }
+
+        &.secondary {
+          background-color: $secondary;
+        }
+
+        &.orange {
+          background-color: $orange;
+        }
+
+        &.blue {
+          background-color: $blue;
+        }
+      }
+
+      .title {
+        margin: 15px 0;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .bg1 {
+    background-color: $gray;
+  }
+
+  .bg2 {
+    background-color: $primary;
+  }
+
+  .bg3 {
+    background-color: $orange;
+  }
+
+  .bg4 {
+    background-color: $secondary;
+  }
+
+  .bg5 {
+    background-color: $blue;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .services-container {
+    .hero-section {
+      padding: 0 0 0 10px;
+      margin-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .hero-content {
+        width: auto;
+        align-items: center;
+
+        .texts {
+          gap: 35px;
+
+          .description {
+            font-size: unset;
+          }
+        }
+      }
+    }
+
+    .trainagles-separator {
+      display: none;
+    }
+
+    .services-big-card {
+      padding: 30px 10px;
+      justify-content: start;
+      flex-wrap: wrap;
+
+      .content {
+        max-width: auto;
+
+        .main-section-title {
+          text-align: unset;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .industry-expertise {
+      padding: 50px 10px;
+    }
+
+    .why-choose-section {
+      background-color: white;
+      padding: 50px 10px;
+
+      .key-advs {
+        font-size: 20px;
+      }
+
+      .data-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .card-wrapper {
+        padding: 20px;
+        max-width: 125px;
+      }
+    }
+
+    .how-it-works-section {
+      .horizontal-line {
+        margin: 20px 10px 20px;
+      }
+
+      .sections-wrapper {
+        margin: 0;
+        gap: 10px;
+      }
+    }
+  }
+}

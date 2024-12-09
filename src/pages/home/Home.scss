@@ -1,0 +1,576 @@
+@import "../../index.scss";
+
+.home-container {
+  .hero-section {
+    height: calc(100vh - 84px);
+
+    .texts {
+      .title {
+        font-size: 35px;
+        margin-top: 100px;
+        width: 750px;
+      }
+
+      .subtitle {
+        font-size: 24px;
+        width: 900px;
+      }
+
+      .description {
+        width: 780px;
+      }
+    }
+
+    .contanct-us {
+      margin-top: 40px;
+    }
+
+    .happy-worker {
+      position: absolute;
+      bottom: 130px;
+      right: 10px;
+    }
+
+    .small-elipse {
+      position: absolute;
+      top: 150px;
+      left: 15%;
+    }
+    .mid-elipse {
+      position: absolute;
+      top: 180px;
+      right: 5%;
+    }
+    .large-elipse {
+      position: absolute;
+      top: 300px;
+      left: 8%;
+    }
+
+    .triangles {
+      position: absolute;
+      bottom: -0.5px;
+      display: flex;
+    }
+  }
+
+  .why-choose-section {
+    background-color: $primary;
+    padding-top: 45px;
+    padding-bottom: 60px;
+
+    .texts {
+      padding: 0 10px;
+      .desc {
+        margin: 10px 0;
+      }
+    }
+
+    .cards {
+      justify-content: space-between;
+      gap: 15px;
+      margin-top: 20px;
+      padding: 0 7%;
+    }
+  }
+
+  .services-section {
+    position: relative;
+    background-color: black;
+    padding-top: 45px;
+    padding-bottom: 150px;
+
+    .texts {
+      .title {
+        color: white;
+      }
+
+      .desc {
+        max-width: 950px;
+        margin: 10px 0;
+        color: white;
+      }
+    }
+
+    .cards {
+      justify-content: space-between;
+      gap: 25px;
+      margin-top: 20px;
+      padding: 0 7%;
+    }
+
+    .actions {
+      gap: 20px;
+      margin-top: 50px;
+    }
+
+    .triangles {
+      display: flex;
+      position: absolute;
+      bottom: -0.5px;
+    }
+  }
+
+  .how-it-works-section {
+    position: relative;
+    background-color: white;
+    padding-top: 45px;
+    padding-bottom: 60px;
+
+    .texts {
+      .desc {
+        max-width: 950px;
+        margin: 10px 0;
+      }
+    }
+
+    .it-workrs-sketch {
+      position: absolute;
+      right: 8%;
+      top: -15px;
+    }
+
+    .horizontal-line {
+      border-bottom: 2px solid black;
+      margin: 20px 7% 20px;
+    }
+
+    .sections-wrapper {
+      display: flex;
+      gap: 40px;
+      margin: 0 7%;
+      position: relative;
+
+      .step {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        padding: 3px;
+        height: 25px;
+        width: 25px;
+        color: white;
+        top: -35px;
+        position: absolute;
+
+        &.primary {
+          background-color: $primary;
+        }
+
+        &.orange {
+          background-color: $orange;
+        }
+
+        &.blue {
+          background-color: $blue;
+        }
+      }
+
+      .title {
+        margin: 15px 0;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .featured-sections-section {
+    position: relative;
+    background-color: white;
+    padding-top: 45px;
+    padding-bottom: 30px;
+
+    .texts {
+      z-index: 10;
+      position: relative;
+
+      .desc {
+        max-width: 950px;
+        margin: 10px 0;
+      }
+    }
+
+    .featured-jobs-sket {
+      position: absolute;
+      left: 13%;
+      top: -60px;
+    }
+
+    .sections-wrapper {
+      display: flex;
+      gap: 40px;
+      margin: 10px 7%;
+      position: relative;
+      z-index: 10px;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid gray;
+        border-radius: 15px;
+        padding: 20px;
+        gap: 15px;
+        background-color: white;
+
+        .title {
+          font-weight: 600px;
+        }
+
+        .location-wrapper {
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: gray;
+
+          .country {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          }
+        }
+
+        .job-duration {
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: gray;
+        }
+
+        .job-type-wrapper {
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: gray;
+
+          .job-type,
+          .is-remote {
+            border: 1px solid gray;
+            border-radius: 6px;
+            padding: 5px 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .main-section-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  .testimonials-section {
+    background-color: white;
+    padding-top: 45px;
+    padding-bottom: 50px;
+
+    .texts {
+      z-index: 10;
+      position: relative;
+
+      .desc {
+        max-width: 950px;
+        margin: 10px 0;
+      }
+    }
+
+    .sections-wrapper {
+      gap: 40px;
+      margin: 10px 7%;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid gray;
+        border-radius: 15px;
+        padding: 40px 20px;
+        gap: 15px;
+        background-color: white;
+
+        .stars {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+      }
+    }
+  }
+
+  .insights-section {
+    background-color: $bage;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    position: relative;
+
+    .triangles {
+      display: flex;
+      position: absolute;
+      top: 0;
+      transform: scaleY(-1);
+    }
+
+    .small-elipse {
+      z-index: 10;
+      position: absolute;
+      top: 20px;
+      left: 230px;
+    }
+
+    .large-elipse {
+      z-index: 10;
+      position: absolute;
+      top: -20px;
+      right: 130px;
+    }
+
+    // .insights-sketch {
+    //   position: absolute;
+    //   left: 0;
+    //   top: -90px;
+    //   z-index: 200;
+    // }
+
+    .texts {
+      position: relative;
+
+      .desc {
+        max-width: 950px;
+        margin: 10px 0;
+      }
+    }
+
+    .sections-wrapper {
+      display: flex;
+      gap: 50px;
+      margin: 20px 7% 50px;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid $light-bage;
+        border-radius: 15px;
+        padding: 30px 20px;
+        gap: 15px;
+        background-color: $light-bage;
+
+        .title {
+          font-weight: 600;
+        }
+
+        .discover-more {
+          display: flex;
+          align-items: center;
+          font-weight: 500;
+          cursor: pointer;
+          gap: 10px;
+          color: $secondary;
+        }
+      }
+    }
+  }
+
+  .get-in-touch-section {
+    background-color: $primary;
+    padding: 10px 7%;
+
+    .texts {
+      position: relative;
+      .text {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .home-container {
+    .hero-section {
+      .texts {
+        padding: 0 15px;
+        padding: 10px;
+        .title {
+          font-size: 30px;
+          margin-top: 20px;
+          width: auto;
+        }
+
+        .subtitle {
+          font-size: 18px;
+          width: auto;
+        }
+
+        .description {
+          width: auto;
+        }
+      }
+
+      .contanct-us {
+        margin-top: 10px;
+      }
+
+      .happy-worker {
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+      }
+    }
+
+    .why-choose-section {
+      background-color: $primary;
+      padding-top: 45px;
+      padding-bottom: 60px;
+
+      .texts {
+        .title {
+          font-size: 25px;
+        }
+      }
+
+      .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 0 10px;
+      }
+    }
+
+    .services-section {
+      padding-bottom: 150px;
+
+      .texts {
+        padding: 0 10px;
+      }
+
+      .cards {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 10px;
+      }
+
+      .actions {
+        gap: 5px;
+        padding: 0 10px;
+      }
+    }
+
+    .how-it-works-section {
+      .texts {
+        align-items: start;
+        padding: 0 10px;
+        .desc {
+          text-align: unset;
+          max-width: 200px;
+          margin: 10px 0;
+        }
+      }
+
+      .it-workrs-sketch {
+        position: absolute;
+        right: 3%;
+        top: 0px;
+      }
+
+      .horizontal-line {
+        margin: 20px 10px 20px;
+      }
+
+      .sections-wrapper {
+        margin: 0 10px;
+      }
+    }
+
+    .featured-sections-section {
+      padding-top: 0;
+
+      .texts {
+        padding: 0 10px;
+        align-items: start;
+
+        .desc {
+          text-align: unset;
+          max-width: 200px;
+          margin: 10px 0;
+        }
+      }
+
+      .featured-jobs-sket {
+        display: none;
+      }
+
+      .sections-wrapper {
+        gap: 10px;
+        margin: 10px 0 10px 10px;
+        max-width: 100%;
+        overflow-y: auto;
+      }
+    }
+
+    .testimonials-section {
+      background-color: white;
+      padding-top: 20px;
+      padding-bottom: 50px;
+
+      .texts {
+        padding: 0 10px;
+        align-items: start;
+        z-index: 10;
+        position: relative;
+
+        .desc {
+          text-align: unset;
+          max-width: 250px;
+          margin: 10px 0;
+        }
+      }
+
+      .sections-wrapper {
+        gap: 10px;
+        margin: 10px;
+        max-width: 100%;
+        overflow-y: auto;
+
+        .card {
+          max-height: 200px;
+          min-width: 230px;
+          padding: 30px 20px;
+          gap: 10px;
+        }
+      }
+    }
+
+    .insights-section {
+      .texts {
+        position: relative;
+        padding: 0 10px;
+        .desc {
+          max-width: 250px;
+          margin: 10px 0;
+        }
+      }
+
+      .sections-wrapper {
+        flex-wrap: wrap;
+        gap: 30px;
+        margin: 20px 10px 50px;
+      }
+    }
+
+    .get-in-touch-section {
+      padding: 50px 10px 0 10px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .texts {
+        align-items: center;
+        position: relative;
+        .text {
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "../../../index.scss";
+
+.main-btn-container {
+  background-color: $secondary;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}

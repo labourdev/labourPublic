@@ -1,0 +1,100 @@
+@import "../../index.scss";
+
+.trinagle {
+  width: 50vw;
+  height: 200px;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  overflow-x: hidden;
+
+  &.primary {
+    background-color: $primary;
+  }
+
+  &.white {
+    background-color: white;
+  }
+
+  &.gray {
+    background-color: $gray;
+  }
+
+  &.mirror {
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+  }
+}
+
+.happy-worker-sketch {
+  svg {
+    width: 334px;
+    height: 220px;
+  }
+}
+
+.it-works-sketch {
+  svg {
+    width: 181px;
+    height: 181px;
+  }
+}
+
+.featured-jobs-sketch {
+  svg {
+    width: 245px;
+    height: 245px;
+  }
+}
+
+.in-touch-sketch {
+  svg {
+    width: 559px;
+    height: 366px;
+  }
+}
+
+.services-workers-sketch {
+  svg {
+    width: 750px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .trinagle {
+    height: 80px;
+  }
+
+  .happy-worker-sketch {
+    svg {
+      width: 200px;
+      height: 110px;
+    }
+  }
+
+  .it-works-sketch {
+    svg {
+      width: 130px;
+      height: 130px;
+    }
+  }
+
+  .featured-jobs-sketch {
+    svg {
+      width: 130px;
+      height: 130px;
+    }
+  }
+
+  .in-touch-sketch {
+    svg {
+      width: 180px;
+      height: 170px;
+    }
+  }
+
+  .services-workers-sketch {
+    svg {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}

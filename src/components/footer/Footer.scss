@@ -1,0 +1,48 @@
+@import "../../index.scss";
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer-container {
+  background-color: black;
+  padding: 80px 7%;
+  display: flex;
+  color: gray;
+  gap: 60px;
+
+  .logo-wrapper {
+    .welcome-text {
+      padding: 30px 0;
+      color: gray;
+    }
+  }
+
+  .links-wrapper {
+    .title {
+      color: white;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      color: gray;
+      padding: 15px;
+      padding-top: 0;
+      li {
+        margin-bottom: 15px;
+      }
+      li::marker {
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer-container {
+    padding: 50px 20px;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+}
