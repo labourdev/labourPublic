@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/labourPublic/static/css/main.8ee5b04a.css",
-    "main.js": "/labourPublic/static/js/main.3f0281a6.js",
-    "static/css/682.f3402c29.chunk.css": "/labourPublic/static/css/682.f3402c29.chunk.css",
-    "static/js/682.c19b7ba5.chunk.js": "/labourPublic/static/js/682.c19b7ba5.chunk.js",
+    "main.js": "/labourPublic/static/js/main.48bb956c.js",
+    "static/css/682.b2da89e0.chunk.css": "/labourPublic/static/css/682.b2da89e0.chunk.css",
+    "static/js/682.1568aab8.chunk.js": "/labourPublic/static/js/682.1568aab8.chunk.js",
     "static/css/773.192f44eb.chunk.css": "/labourPublic/static/css/773.192f44eb.chunk.css",
     "static/js/773.5820c24d.chunk.js": "/labourPublic/static/js/773.5820c24d.chunk.js",
     "static/css/368.12c63d7f.chunk.css": "/labourPublic/static/css/368.12c63d7f.chunk.css",
@@ -15,9 +15,9 @@
     "static/js/48.c6d49109.chunk.js": "/labourPublic/static/js/48.c6d49109.chunk.js",
     "index.html": "/labourPublic/index.html",
     "main.8ee5b04a.css.map": "/labourPublic/static/css/main.8ee5b04a.css.map",
-    "main.3f0281a6.js.map": "/labourPublic/static/js/main.3f0281a6.js.map",
-    "682.f3402c29.chunk.css.map": "/labourPublic/static/css/682.f3402c29.chunk.css.map",
-    "682.c19b7ba5.chunk.js.map": "/labourPublic/static/js/682.c19b7ba5.chunk.js.map",
+    "main.48bb956c.js.map": "/labourPublic/static/js/main.48bb956c.js.map",
+    "682.b2da89e0.chunk.css.map": "/labourPublic/static/css/682.b2da89e0.chunk.css.map",
+    "682.1568aab8.chunk.js.map": "/labourPublic/static/js/682.1568aab8.chunk.js.map",
     "773.192f44eb.chunk.css.map": "/labourPublic/static/css/773.192f44eb.chunk.css.map",
     "773.5820c24d.chunk.js.map": "/labourPublic/static/js/773.5820c24d.chunk.js.map",
     "368.12c63d7f.chunk.css.map": "/labourPublic/static/css/368.12c63d7f.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.8ee5b04a.css",
-    "static/js/main.3f0281a6.js"
+    "static/js/main.48bb956c.js"
   ]
 }
