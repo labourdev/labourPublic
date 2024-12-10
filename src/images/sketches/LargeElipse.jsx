@@ -26,8 +26,8 @@ const LargeElipse = () => {
             y2="113"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#038DBE" />
-            <stop offset="1" stop-color="#F7FDFF" />
+            <stop stopColor="#038DBE" />
+            <stop offset="1" stopColor="#F7FDFF" />
           </linearGradient>
         </defs>
       </svg>

@@ -9,7 +9,7 @@ const ServicesBigCard1 = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_939_4771)">
+      <g clipPath="url(#clip0_939_4771)">
         <path
           d="M29.3333 10.6666C29.3332 11.0739 29.3071 11.4808 29.2552 11.8847L30.5767 12.0566C30.6367 11.5957 30.6667 11.1314 30.6666 10.6666V10.6256L29.3333 10.6666Z"
           fill="black"

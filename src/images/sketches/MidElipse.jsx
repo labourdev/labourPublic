@@ -26,8 +26,8 @@ const MidElipse = () => {
             y2="99.7503"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#F9C927" />
-            <stop offset="1" stop-color="white" />
+            <stop stopColor="#F9C927" />
+            <stop offset="1" stopColor="white" />
           </linearGradient>
         </defs>
       </svg>

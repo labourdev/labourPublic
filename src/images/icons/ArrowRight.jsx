@@ -13,9 +13,9 @@ const ArrowRight = () => {
         <path
           d="M4.7723 1.12329L8.14697 4.49796L4.7723 7.87263M7.67827 4.49796L0.835187 4.49796"
           stroke="black"
-          stroke-width="1.12489"
-          stroke-miterlimit="10"
-          stroke-linecap="square"
+          strokeWidth="1.12489"
+          strokeMiterlimit="10"
+          strokeLinecap="square"
         />
       </svg>
     </div>

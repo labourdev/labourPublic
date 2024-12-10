@@ -16,7 +16,7 @@ const X = () => {
         ry="10.5031"
         fill="#F9C927"
       />
-      <g clip-path="url(#clip0_1398_8214)">
+      <g clipPath="url(#clip0_1398_8214)">
         <mask
           id="mask0_1398_8214"
           style="mask-type:luminance"

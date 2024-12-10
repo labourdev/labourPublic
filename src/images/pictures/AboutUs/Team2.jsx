@@ -38,8 +38,8 @@ const Team2 = () => {
           y2="400"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F36211" />
-          <stop offset="1" stop-color="#C14A08" />
+          <stop stopColor="#F36211" />
+          <stop offset="1" stopColor="#C14A08" />
         </linearGradient>
         <image
           id="image0_1588_1518"
