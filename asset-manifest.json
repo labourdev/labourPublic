@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/labourPublic/static/css/main.7896c7be.css",
-    "main.js": "/labourPublic/static/js/main.93d61a71.js",
+    "main.js": "/labourPublic/static/js/main.723c0155.js",
     "index.html": "/labourPublic/index.html",
     "main.7896c7be.css.map": "/labourPublic/static/css/main.7896c7be.css.map",
-    "main.93d61a71.js.map": "/labourPublic/static/js/main.93d61a71.js.map"
+    "main.723c0155.js.map": "/labourPublic/static/js/main.723c0155.js.map"
   },
   "entrypoints": [
     "static/css/main.7896c7be.css",
-    "static/js/main.93d61a71.js"
+    "static/js/main.723c0155.js"
   ]
 }
