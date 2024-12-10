@@ -388,6 +388,8 @@
 @media screen and (max-width: 750px) {
   .home-container {
     .hero-section {
+      height: calc(100vh - 105px);
+
       .texts {
         padding: 0 15px;
         padding: 10px;
