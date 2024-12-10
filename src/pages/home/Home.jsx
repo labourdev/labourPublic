@@ -54,10 +54,10 @@ const Home = () => {
           <div className="contanct-us">
             <ContactUs />
           </div>
-          <div className="happy-worker-mobile">
-            <HappyWorker />
-          </div>
           <div className="triangles-mobile">
+            <div className="happy-worker-mobile">
+              <HappyWorker />
+            </div>
             <Triangle color={"primary"} mirror={"mirror"} />
             <Triangle color={"primary"} />
           </div>
