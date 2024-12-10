@@ -9,6 +9,7 @@ import {
   whyChooseData,
 } from "./data/servicesData";
 import InTouch from "../../images/sketches/InTouch";
+import LazySvgImg from "../../components/lazySvg/LazySvgImg";
 
 const Services = () => {
   return (
@@ -54,7 +55,7 @@ const Services = () => {
               {card.subSections.map((sub, index) => (
                 <div className="d-flex gap-20 mt-10" key={index}>
                   <div className="shrink-0">
-                    <sub.icon />
+                    <LazySvgImg SvgComponent={sub.icon} />
                   </div>
                   <div>
                     <div className="bold">{sub.title}</div>
@@ -65,7 +66,7 @@ const Services = () => {
             </div>
           </div>
           <div className="main-icon">
-            <card.icon />
+            <LazySvgImg SvgComponent={card.icon} />
           </div>
         </div>
       ))}
@@ -98,7 +99,7 @@ const Services = () => {
               key={index}
               className="card-wrapper d-flex justify-content-between align-items-center text-center flex-column gap-10"
             >
-              <card.icon />
+              <LazySvgImg SvgComponent={card.icon} />
               <div className="mt-20">{card.desc}</div>
             </div>
           ))}
@@ -139,7 +140,7 @@ const Services = () => {
           </div>
           <MainBtn title={"Contact Us"} />
         </div>
-        <InTouch />
+        <LazySvgImg SvgComponent={InTouch} />
       </div>
     </div>
   );
