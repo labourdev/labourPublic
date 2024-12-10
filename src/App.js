@@ -1,9 +1,4 @@
-import {
-  createBrowserRouter,
-  Route,
-  createRoutesFromElements,
-  RouterProvider,
-} from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 // pages
 import Home from "./pages/home/Home";
@@ -14,19 +9,19 @@ import AboutUs from "./pages/aboutUs/AboutUs";
 // layouts
 import RootLayout from "./layouts/RootLayout";
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<RootLayout />}>
-      <Route index element={<Home />} />
-      <Route path="services" element={<Services />} />
-      <Route path="employers" element={<Employers />} />
-      <Route path="aboutus" element={<AboutUs />} />
-    </Route>
-  )
-);
-
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<RootLayout />}>
+          <Route index element={<Home />} />
+          <Route path="services" element={<Services />} />
+          <Route path="employers" element={<Employers />} />
+          <Route path="aboutus" element={<AboutUs />} />
+        </Route>
+      </Routes>
+    </HashRouter>
+  );
 }
 
 export default App;
