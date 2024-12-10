@@ -55,7 +55,7 @@ const Home = () => {
             <ContactUs />
           </div>
           <div className="happy-worker-mobile">
-            <LazySvgImg SvgComponent={HappyWorker} />
+            <HappyWorker />
           </div>
           <div className="triangles-mobile">
             <Triangle color={"primary"} mirror={"mirror"} />
