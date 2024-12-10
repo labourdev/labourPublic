@@ -43,6 +43,7 @@ const Services = () => {
       </div>
       {servicesData.map((card, index) => (
         <div
+          key={index}
           className={`d-flex align-items-center justify-content-between gap-20 services-big-card ${card.background}`}
         >
           <div className="content" key={index}>

@@ -1,26 +1,36 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Route,
+} from "react-router-dom";
+import React from "react";
 
-// pages
-import Home from "./pages/home/Home";
-import Services from "./pages/services/Services";
-import Employers from "./pages/employers/Employers";
-import AboutUs from "./pages/aboutUs/AboutUs";
+const Home = React.lazy(() => import("./pages/home/Home"));
+const Services = React.lazy(() => import("./pages/services/Services"));
+const Employers = React.lazy(() => import("./pages/employers/Employers"));
+const AboutUs = React.lazy(() => import("./pages/aboutUs/AboutUs"));
+const RootLayout = React.lazy(() => import("./layouts/RootLayout"));
 
-// layouts
-import RootLayout from "./layouts/RootLayout";
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route index element={<Home />} />
+      <Route path="services" element={<Services />} />
+      <Route path="employers" element={<Employers />} />
+      <Route path="aboutus" element={<AboutUs />} />
+    </Route>
+  ),
+  {
+    basename: "/labourPublic", // Set the basename for GitHub Pages
+  }
+);
 
 function App() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<RootLayout />}>
-          <Route index element={<Home />} />
-          <Route path="services" element={<Services />} />
-          <Route path="employers" element={<Employers />} />
-          <Route path="aboutus" element={<AboutUs />} />
-        </Route>
-      </Routes>
-    </HashRouter>
+    <RouterProvider router={router}>
+      <RootLayout />
+    </RouterProvider>
   );
 }
 
