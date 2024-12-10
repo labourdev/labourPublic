@@ -51,8 +51,18 @@ const Home = () => {
             hiring solutions, we reduce your risk and boost project efficiency,
             ensuring exceptional results for your projects.
           </div>
+          <div className="contanct-us">
+            <ContactUs />
+          </div>
+          <div className="happy-worker-mobile">
+            <LazySvgImg SvgComponent={HappyWorker} />
+          </div>
+          <div className="triangles-mobile">
+            <Triangle color={"primary"} mirror={"mirror"} />
+            <Triangle color={"primary"} />
+          </div>
         </div>
-        <div className="happy-worker">
+        <div className="happy-worker-web">
           <LazySvgImg SvgComponent={HappyWorker} />
         </div>
         <div className="small-elipse">
@@ -64,10 +74,7 @@ const Home = () => {
         <div className="large-elipse">
           <LazySvgImg SvgComponent={LargeElipse} />
         </div>
-        <div className="contanct-us">
-          <ContactUs />
-        </div>
-        <div className="triangles">
+        <div className="triangles-web">
           <Triangle color={"primary"} mirror={"mirror"} />
           <Triangle color={"primary"} />
         </div>

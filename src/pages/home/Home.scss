@@ -22,13 +22,17 @@
     }
 
     .contanct-us {
-      margin-top: 40px;
+      margin-top: 30px;
     }
 
-    .happy-worker {
+    .happy-worker-web {
       position: absolute;
       bottom: 130px;
       right: 10px;
+    }
+
+    .happy-worker-mobile {
+      display: none;
     }
 
     .small-elipse {
@@ -47,7 +51,11 @@
       left: 8%;
     }
 
-    .triangles {
+    .triangles-mobile {
+      display: none;
+    }
+
+    .triangles-web {
       position: absolute;
       bottom: -0.5px;
       display: flex;
@@ -388,11 +396,10 @@
 @media screen and (max-width: 750px) {
   .home-container {
     .hero-section {
-      height: calc(100vh - 105px);
-
+      height: unset;
       .texts {
-        padding: 0 15px;
         padding: 10px;
+        padding-bottom: 0;
         .title {
           font-size: 30px;
           margin-top: 20px;
@@ -413,10 +420,25 @@
         margin-top: 10px;
       }
 
-      .happy-worker {
+      .happy-worker-web {
+        display: none;
+      }
+
+      .triangles-web {
+        display: none;
+      }
+
+      .triangles-mobile {
+        display: block;
+        position: relative;
+        bottom: -0.5px;
+        display: flex;
+      }
+
+      .happy-worker-mobile {
         position: absolute;
-        bottom: 0;
-        left: 25%;
+        display: block;
+        bottom: -10px;
       }
     }
 
@@ -424,6 +446,8 @@
       background-color: $primary;
       padding-top: 45px;
       padding-bottom: 60px;
+      z-index: 100;
+      position: relative;
 
       .texts {
         .title {
