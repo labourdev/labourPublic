@@ -30,6 +30,7 @@ import {
 import ChooseSectionCard from "./components/ChooseSectionCard/ChooseSectionCard";
 import ServicesSectionCard from "./components/ServicesCard/ServicesSectionCard";
 import MainBtn from "../../components/buttons/mainBtn/MainBtn";
+import LazySvgImg from "../../components/lazySvg/LazySvgImg";
 
 const Home = () => {
   return (
@@ -52,16 +53,16 @@ const Home = () => {
           </div>
         </div>
         <div className="happy-worker">
-          <HappyWorker />
+          <LazySvgImg SvgComponent={HappyWorker} />
         </div>
         <div className="small-elipse">
-          <SmallElipse />
+          <LazySvgImg SvgComponent={SmallElipse} />
         </div>
         <div className="mid-elipse">
-          <MidElipse />
+          <LazySvgImg SvgComponent={MidElipse} />
         </div>
         <div className="large-elipse">
-          <LargeElipse />
+          <LazySvgImg SvgComponent={LargeElipse} />
         </div>
         <div className="contanct-us">
           <ContactUs />
@@ -132,7 +133,7 @@ const Home = () => {
           </div>
         </div>
         <div className="it-workrs-sketch">
-          <ItWorks />
+          <LazySvgImg SvgComponent={ItWorks} />
         </div>
         <div className="horizontal-line"></div>
         <div className="sections-wrapper">
@@ -153,21 +154,21 @@ const Home = () => {
           </div>
         </div>
         <div className="featured-jobs-sket">
-          <FeaturedJobs />
+          <LazySvgImg SvgComponent={FeaturedJobs} />
         </div>
         <div className="sections-wrapper">
           {featuredJobsData?.map((card, index) => (
             <div className="card" key={index}>
-              <JobBag />
+              <LazySvgImg SvgComponent={JobBag} />
               <div className="title">{card.title}</div>
               <div className="location-wrapper">
                 <div className="country">
-                  <Location /> {card.country}
+                  <LazySvgImg SvgComponent={Location} /> {card.country}
                 </div>
                 |<div>{card.city}</div>|<div>{card.location}</div>
               </div>
               <div className="job-duration">
-                <JobBag2 />
+                <LazySvgImg SvgComponent={JobBag2} />
                 {card.duration}
               </div>
               <div className="job-type-wrapper">
@@ -194,11 +195,11 @@ const Home = () => {
         <div className="sections-wrapper d-flex">
           {testimonialsData?.map((card, index) => (
             <div className="card" key={index}>
-              <Qoutation />
+              <LazySvgImg SvgComponent={Qoutation} />
               {card.desc}
               <div className="stars">
                 {Array.from({ length: 4 }).map((_, index) => (
-                  <Star key={index} />
+                  <LazySvgImg key={index} SvgComponent={Star} />
                 ))}
               </div>
               {card.name}
@@ -215,10 +216,10 @@ const Home = () => {
           </div>
         </div>
         <div className="small-elipse">
-          <SmallElipse />
+          <LazySvgImg SvgComponent={SmallElipse} />
         </div>
         <div className="large-elipse">
-          <LargeElipse />
+          <LazySvgImg SvgComponent={LargeElipse} />
         </div>
         <div className="triangles">
           <Triangle color={"white"} mirror={"mirror"} />
@@ -246,7 +247,7 @@ const Home = () => {
           </div>
           <MainBtn title={"Contact Us"} />
         </div>
-        <InTouch />
+        <LazySvgImg SvgComponent={InTouch} />
       </div>
     </div>
   );

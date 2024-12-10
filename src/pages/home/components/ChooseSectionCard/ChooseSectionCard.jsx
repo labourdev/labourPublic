@@ -1,10 +1,11 @@
 import React from "react";
 import "./ChooseSectionCard.scss";
+import LazySvgImg from "../../../../components/lazySvg/LazySvgImg";
 
 const ChooseSectionCard = ({ title, icon: Icon }) => {
   return (
     <div className="choose-section-card-container">
-      <Icon />
+      <LazySvgImg SvgComponent={Icon} />
       <div>{title}</div>
     </div>
   );
