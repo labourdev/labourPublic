@@ -8,8 +8,8 @@ import {
   servicesData,
   whyChooseData,
 } from "./data/servicesData";
-import InTouch from "../../images/sketches/InTouch";
 import LazySvgImg from "../../components/lazySvg/LazySvgImg";
+import GetInTouch from "../../components/getInTouch/GetInTouch";
 
 const Services = () => {
   return (
@@ -132,16 +132,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="get-in-touch-section d-flex align-items-center justify-content-between">
-        <div className="texts d-flex flex-column justify-content-between">
-          <div className="main-section-title">Get In Touch With Us</div>
-          <div className="text text-center">
-            Ready to hire or need more information? We’re here to help.
-          </div>
-          <MainBtn title={"Contact Us"} />
-        </div>
-        <LazySvgImg SvgComponent={InTouch} />
-      </div>
+      <GetInTouch />
     </div>
   );
 };

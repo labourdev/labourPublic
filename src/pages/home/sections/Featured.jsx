@@ -2,7 +2,6 @@ import React from "react";
 import MainBtn from "../../../components/buttons/mainBtn/MainBtn";
 import LazySvgImg from "../../../components/lazySvg/LazySvgImg";
 
-import FeaturedJobs from "../../../images/sketches/FeaturedJobs";
 import JobBag from "../../../images/icons/JobBag";
 import JobBag2 from "../../../images/icons/JobBag2";
 import Location from "../../../images/icons/Location";
@@ -19,7 +18,11 @@ const Featured = () => {
         </div>
       </div>
       <div className="featured-jobs-sket">
-        <LazySvgImg SvgComponent={FeaturedJobs} />
+        <img
+          src="/labourPublic/images/FeaturedJobs.png"
+          alt="ItWorks"
+          loading="lazy"
+        />
       </div>
       <div className="sections-wrapper">
         {featuredJobsData?.map((card, index) => (

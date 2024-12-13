@@ -1,8 +1,4 @@
-import React from "react";
 import MainBtn from "../buttons/mainBtn/MainBtn";
-import LazySvgImg from "../lazySvg/LazySvgImg";
-
-import InTouch from "../../images/sketches/InTouch";
 
 const GetInTouch = () => {
   return (
@@ -14,7 +10,11 @@ const GetInTouch = () => {
         </div>
         <MainBtn title={"Contact Us"} />
       </div>
-      <LazySvgImg SvgComponent={InTouch} />
+      <img
+        src="/labourPublic/images/InTouch.png"
+        alt="InTouch"
+        loading="lazy"
+      />
     </div>
   );
 };

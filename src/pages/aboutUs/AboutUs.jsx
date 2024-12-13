@@ -6,7 +6,7 @@ import "./AboutUs.scss";
 import { steps, team, values } from "./data/aboutUsData";
 
 import Goals from "../../images/icons/AboutUs/Goals";
-import InTouch from "../../images/sketches/InTouch";
+import GetInTouch from "../../components/getInTouch/GetInTouch";
 
 const AboutUs = () => {
   return (
@@ -161,16 +161,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="get-in-touch-section d-flex align-items-center justify-content-between">
-        <div className="texts d-flex flex-column justify-content-between">
-          <div className="main-section-title">Get In Touch With Us</div>
-          <div className="text text-center">
-            Ready to hire or need more information? We’re here to help.
-          </div>
-          <MainBtn title={"Contact Us"} />
-        </div>
-        <InTouch />
-      </div>
+      <GetInTouch />
     </div>
   );
 };

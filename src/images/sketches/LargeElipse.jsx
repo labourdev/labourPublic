@@ -6,7 +6,6 @@ const LargeElipse = () => {
       <svg
         width="120"
         height="119"
-        viewBox="0 0 120 119"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >

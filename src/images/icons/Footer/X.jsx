@@ -19,7 +19,7 @@ const X = () => {
       <g clipPath="url(#clip0_1398_8214)">
         <mask
           id="mask0_1398_8214"
-          style="mask-type:luminance"
+          style={{ maskType: "luminance" }}
           maskUnits="userSpaceOnUse"
           x="6"
           y="6"

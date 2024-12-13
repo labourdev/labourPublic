@@ -1,6 +1,3 @@
-import React from "react";
-import LazySvgImg from "../../../components/lazySvg/LazySvgImg";
-import ItWorks from "../../../images/sketches/ItWorks";
 import { howItWorksData } from "../data/homeData";
 
 const HowItWorks = () => {
@@ -14,7 +11,11 @@ const HowItWorks = () => {
         </div>
       </div>
       <div className="it-workrs-sketch">
-        <LazySvgImg SvgComponent={ItWorks} />
+        <img
+          src="/labourPublic/images/ItWorks.png"
+          alt="ItWorks"
+          loading="lazy"
+        />
       </div>
       <div className="horizontal-line"></div>
       <div className="sections-wrapper">
