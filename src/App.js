@@ -6,11 +6,12 @@ import {
 } from "react-router-dom";
 import React from "react";
 
+import RootLayout from "./layouts/RootLayout";
+
 const Home = React.lazy(() => import("./pages/home/Home"));
 const Services = React.lazy(() => import("./pages/services/Services"));
 const Employers = React.lazy(() => import("./pages/employers/Employers"));
 const AboutUs = React.lazy(() => import("./pages/aboutUs/AboutUs"));
-const RootLayout = React.lazy(() => import("./layouts/RootLayout"));
 
 const router = createBrowserRouter(
   createRoutesFromElements(
