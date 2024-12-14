@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/labourPublic/static/css/main.c7ea71dc.css",
-    "main.js": "/labourPublic/static/js/main.a96a9510.js",
+    "main.js": "/labourPublic/static/js/main.27b4eb4f.js",
     "static/css/347.8f40935a.chunk.css": "/labourPublic/static/css/347.8f40935a.chunk.css",
     "static/js/347.2dda6baa.chunk.js": "/labourPublic/static/js/347.2dda6baa.chunk.js",
-    "static/css/760.f0642013.chunk.css": "/labourPublic/static/css/760.f0642013.chunk.css",
-    "static/js/760.399c5e72.chunk.js": "/labourPublic/static/js/760.399c5e72.chunk.js",
+    "static/css/760.ace451c4.chunk.css": "/labourPublic/static/css/760.ace451c4.chunk.css",
+    "static/js/760.feeaadcd.chunk.js": "/labourPublic/static/js/760.feeaadcd.chunk.js",
     "static/css/722.861bb82c.chunk.css": "/labourPublic/static/css/722.861bb82c.chunk.css",
     "static/js/722.6329b096.chunk.js": "/labourPublic/static/js/722.6329b096.chunk.js",
     "static/css/520.c1ec679b.chunk.css": "/labourPublic/static/css/520.c1ec679b.chunk.css",
@@ -19,19 +19,19 @@
     "static/js/54.8d39d525.chunk.js": "/labourPublic/static/js/54.8d39d525.chunk.js",
     "static/js/429.be7c6677.chunk.js": "/labourPublic/static/js/429.be7c6677.chunk.js",
     "static/js/424.bd954712.chunk.js": "/labourPublic/static/js/424.bd954712.chunk.js",
-    "static/js/866.9aac0fda.chunk.js": "/labourPublic/static/js/866.9aac0fda.chunk.js",
-    "static/js/402.5fbb23c0.chunk.js": "/labourPublic/static/js/402.5fbb23c0.chunk.js",
-    "static/js/970.766e7a5e.chunk.js": "/labourPublic/static/js/970.766e7a5e.chunk.js",
+    "static/js/866.d3a9f5d2.chunk.js": "/labourPublic/static/js/866.d3a9f5d2.chunk.js",
+    "static/js/402.8d20ac11.chunk.js": "/labourPublic/static/js/402.8d20ac11.chunk.js",
+    "static/js/970.7ce4743d.chunk.js": "/labourPublic/static/js/970.7ce4743d.chunk.js",
     "static/js/432.e6ea271e.chunk.js": "/labourPublic/static/js/432.e6ea271e.chunk.js",
     "static/js/885.ae0a688b.chunk.js": "/labourPublic/static/js/885.ae0a688b.chunk.js",
-    "static/js/916.a429e0e6.chunk.js": "/labourPublic/static/js/916.a429e0e6.chunk.js",
+    "static/js/888.ae54d03d.chunk.js": "/labourPublic/static/js/888.ae54d03d.chunk.js",
     "index.html": "/labourPublic/index.html",
     "main.c7ea71dc.css.map": "/labourPublic/static/css/main.c7ea71dc.css.map",
-    "main.a96a9510.js.map": "/labourPublic/static/js/main.a96a9510.js.map",
+    "main.27b4eb4f.js.map": "/labourPublic/static/js/main.27b4eb4f.js.map",
     "347.8f40935a.chunk.css.map": "/labourPublic/static/css/347.8f40935a.chunk.css.map",
     "347.2dda6baa.chunk.js.map": "/labourPublic/static/js/347.2dda6baa.chunk.js.map",
-    "760.f0642013.chunk.css.map": "/labourPublic/static/css/760.f0642013.chunk.css.map",
-    "760.399c5e72.chunk.js.map": "/labourPublic/static/js/760.399c5e72.chunk.js.map",
+    "760.ace451c4.chunk.css.map": "/labourPublic/static/css/760.ace451c4.chunk.css.map",
+    "760.feeaadcd.chunk.js.map": "/labourPublic/static/js/760.feeaadcd.chunk.js.map",
     "722.861bb82c.chunk.css.map": "/labourPublic/static/css/722.861bb82c.chunk.css.map",
     "722.6329b096.chunk.js.map": "/labourPublic/static/js/722.6329b096.chunk.js.map",
     "520.c1ec679b.chunk.css.map": "/labourPublic/static/css/520.c1ec679b.chunk.css.map",
@@ -45,15 +45,15 @@
     "54.8d39d525.chunk.js.map": "/labourPublic/static/js/54.8d39d525.chunk.js.map",
     "429.be7c6677.chunk.js.map": "/labourPublic/static/js/429.be7c6677.chunk.js.map",
     "424.bd954712.chunk.js.map": "/labourPublic/static/js/424.bd954712.chunk.js.map",
-    "866.9aac0fda.chunk.js.map": "/labourPublic/static/js/866.9aac0fda.chunk.js.map",
-    "402.5fbb23c0.chunk.js.map": "/labourPublic/static/js/402.5fbb23c0.chunk.js.map",
-    "970.766e7a5e.chunk.js.map": "/labourPublic/static/js/970.766e7a5e.chunk.js.map",
+    "866.d3a9f5d2.chunk.js.map": "/labourPublic/static/js/866.d3a9f5d2.chunk.js.map",
+    "402.8d20ac11.chunk.js.map": "/labourPublic/static/js/402.8d20ac11.chunk.js.map",
+    "970.7ce4743d.chunk.js.map": "/labourPublic/static/js/970.7ce4743d.chunk.js.map",
     "432.e6ea271e.chunk.js.map": "/labourPublic/static/js/432.e6ea271e.chunk.js.map",
     "885.ae0a688b.chunk.js.map": "/labourPublic/static/js/885.ae0a688b.chunk.js.map",
-    "916.a429e0e6.chunk.js.map": "/labourPublic/static/js/916.a429e0e6.chunk.js.map"
+    "888.ae54d03d.chunk.js.map": "/labourPublic/static/js/888.ae54d03d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ea71dc.css",
-    "static/js/main.a96a9510.js"
+    "static/js/main.27b4eb4f.js"
   ]
 }
