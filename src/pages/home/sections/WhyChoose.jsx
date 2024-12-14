@@ -4,7 +4,7 @@ import { cardsData } from "../data/homeData";
 
 const WhyChoose = () => {
   return (
-    <div className="why-choose-section">
+    <div className="why-choose-section page-section-padding">
       <div className="texts d-flex align-items-center justify-content-center flex-column">
         <div className="main-section-title bolder text-center">
           Why Choose Labour Link Group?
