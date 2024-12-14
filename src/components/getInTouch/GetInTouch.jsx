@@ -8,7 +8,13 @@ const GetInTouch = () => {
         <div className="text text-center">
           Ready to hire or need more information? We’re here to help.
         </div>
-        <MainBtn title={"Contact Us"} />
+        <div
+          onClick={() =>
+            window.open("https://forms.gle/FwHWi69yvHyzS8Xr7", "_blank")
+          }
+        >
+          <MainBtn title={"Contact Us"} />
+        </div>
       </div>
       <img
         src="/labourPublic/images/InTouch.png"

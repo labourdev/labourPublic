@@ -105,7 +105,12 @@ const Employers = () => {
               us for a free consultation or use the form below to request
               exactly what you need.
             </div>
-            <div className="mt-30">
+            <div
+              className="mt-30"
+              onClick={() =>
+                window.open("https://forms.gle/UtZd3f8PJBcL3Ubu6", "_blank")
+              }
+            >
               <MainBtn title={"Request Now!"} />
             </div>
           </div>

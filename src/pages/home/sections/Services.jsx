@@ -28,7 +28,13 @@ const Services = () => {
       </div>
       <div className="actions d-flex align-items-center justify-content-center">
         <MainBtn title={"Find Your Next Job"} />
-        <MainBtn title={"Hire Skilled Workers"} />
+        <div
+          onClick={() =>
+            window.open("https://forms.gle/UtZd3f8PJBcL3Ubu6", "_blank")
+          }
+        >
+          <MainBtn title={"Hire Skilled Workers"} />
+        </div>
       </div>
       <div className="triangles">
         <Triangle color={"white"} mirror={"mirror"} />

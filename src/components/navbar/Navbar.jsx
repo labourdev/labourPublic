@@ -40,9 +40,7 @@ const Navbar = () => {
             {/* <NavLink to="/blog">Blog</NavLink>
           <NavLink to="/legal">Legal</NavLink> */}
             <div className="contact-us">
-              <NavLink to="/contanct">
-                <ContactUs />
-              </NavLink>
+              <ContactUs />
             </div>
           </div>
         </div>
@@ -68,9 +66,7 @@ const Navbar = () => {
           <NavLink to="/aboutus">About Us</NavLink>
           {/* <NavLink to="/blog">Blog</NavLink>
           <NavLink to="/legal">Legal</NavLink> */}
-          <NavLink to="/contanct">
-            <ContactUs />
-          </NavLink>
+          <ContactUs />
         </div>
       </div>
     </header>
