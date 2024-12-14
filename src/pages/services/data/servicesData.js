@@ -7,13 +7,6 @@ import WhyChoose3 from "../../../images/icons/Services/WhyChoose3";
 import WhyChoose4 from "../../../images/icons/Services/WhyChoose4";
 import WhyChoose5 from "../../../images/icons/Services/WhyChoose5";
 
-import Pic1 from "../../../images/pictures/Pic1";
-import Pic2 from "../../../images/pictures/Pic2";
-import Pic3 from "../../../images/pictures/Pic3";
-import Pic4 from "../../../images/pictures/Pic4";
-import Pic5 from "../../../images/pictures/Pic5";
-import Pic6 from "../../../images/pictures/Pic6";
-
 export const servicesData = [
   {
     background: "bg1",
@@ -31,7 +24,7 @@ export const servicesData = [
         desc: "Commercial and residential construction.",
       },
     ],
-    icon: Pic1,
+    icon: "/labourPublic/images/servicesPage/Pic1.png",
   },
   {
     background: "bg2",
@@ -49,7 +42,7 @@ export const servicesData = [
         desc: "Commercial and residential construction.",
       },
     ],
-    icon: Pic2,
+    icon: "/labourPublic/images/servicesPage/Pic2.png",
   },
   {
     background: "bg3",
@@ -67,7 +60,7 @@ export const servicesData = [
         desc: "Commercial and residential construction.",
       },
     ],
-    icon: Pic3,
+    icon: "/labourPublic/images/servicesPage/Pic3.png",
   },
   {
     background: "bg4",
@@ -85,7 +78,7 @@ export const servicesData = [
         desc: "Commercial and residential construction.",
       },
     ],
-    icon: Pic4,
+    icon: "/labourPublic/images/servicesPage/Pic4.png",
   },
   {
     background: "bg5",
@@ -98,7 +91,7 @@ export const servicesData = [
         desc: "Access to experienced professionals, flexibility to scale your workforce, and full compliance with safety regulations.",
       },
     ],
-    icon: Pic5,
+    icon: "/labourPublic/images/servicesPage/Pic5.png",
   },
   {
     background: "bg2",
@@ -111,7 +104,7 @@ export const servicesData = [
         desc: "Access to experienced professionals, flexibility to scale your workforce, and full compliance with safety regulations.",
       },
     ],
-    icon: Pic6,
+    icon: "/labourPublic/images/servicesPage/Pic6.png",
   },
 ];
 

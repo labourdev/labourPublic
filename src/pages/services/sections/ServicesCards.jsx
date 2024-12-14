@@ -29,7 +29,7 @@ const ServicesCards = () => {
             </div>
           </div>
           <div className="main-icon">
-            <LazySvgImg SvgComponent={card.icon} />
+            <img src={card.icon} alt="service" loading="lazy" />
           </div>
         </div>
       ))}
