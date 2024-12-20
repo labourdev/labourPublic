@@ -1,9 +1,6 @@
 import React from "react";
-import LazySvgImg from "../../../components/lazySvg/LazySvgImg";
-
-import Qoutation from "../../../images/icons/Qoutation";
-import Star from "../../../images/icons/Star";
 import { testimonialsData } from "../data/homeData";
+import Testimonial from "../../../components/testimonial/Testimonial";
 
 const Testimonials = () => {
   return (
@@ -17,15 +14,8 @@ const Testimonials = () => {
       </div>
       <div className="sections-wrapper d-flex">
         {testimonialsData?.map((card, index) => (
-          <div className="card" key={index}>
-            <LazySvgImg SvgComponent={Qoutation} />
-            {card.desc}
-            <div className="stars">
-              {Array.from({ length: 4 }).map((_, index) => (
-                <Star />
-              ))}
-            </div>
-            {card.name}
+          <div key={index}>
+            <Testimonial card={card} />
           </div>
         ))}
       </div>

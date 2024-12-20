@@ -1,3 +1,4 @@
+import Stepper from "../../../components/stepper/Stepper";
 import { howItWorksData } from "../data/homeData";
 
 const HowItWorks = () => {
@@ -17,16 +18,7 @@ const HowItWorks = () => {
           loading="lazy"
         />
       </div>
-      <div className="horizontal-line"></div>
-      <div className="sections-wrapper">
-        {howItWorksData?.map((card, index) => (
-          <div key={index}>
-            <div className={`step ${card.color}`}>0{index + 1}</div>
-            <div className="title">{card.title}</div>
-            <div>{card.desc}</div>
-          </div>
-        ))}
-      </div>
+      <Stepper data={howItWorksData} />
     </div>
   );
 };

@@ -12,6 +12,7 @@ const Home = React.lazy(() => import("./pages/home/Home"));
 const Services = React.lazy(() => import("./pages/services/Services"));
 const Employers = React.lazy(() => import("./pages/employers/Employers"));
 const AboutUs = React.lazy(() => import("./pages/aboutUs/AboutUs"));
+const JobSeekers = React.lazy(() => import("./pages/jobSeekers/JobSeekers"));
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path="services" element={<Services />} />
       <Route path="employers" element={<Employers />} />
       <Route path="aboutus" element={<AboutUs />} />
+      <Route path="jobseekers" element={<JobSeekers />} />
     </Route>
   ),
   {

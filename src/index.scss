@@ -193,6 +193,128 @@ header {
   }
 }
 
+.job-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 15px;
+  max-width: 380px;
+  padding: 20px;
+  gap: 15px;
+  background-color: white;
+
+  .title {
+    font-weight: 600;
+  }
+
+  .location-wrapper {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+
+    .country {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
+  .job-duration {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+  }
+
+  .job-type-wrapper {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+
+    .job-type,
+    .is-remote {
+      border: 1px solid gray;
+      border-radius: 6px;
+      padding: 5px 10px;
+    }
+  }
+}
+
+.stepper-component {
+  .horizontal-line {
+    border-bottom: 2px solid black;
+    margin: 20px 7% 20px;
+  }
+
+  .steps-wrapper {
+    margin: 0 7%;
+    position: relative;
+
+    .step {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      padding: 3px;
+      height: 25px;
+      width: 25px;
+      color: white;
+      top: -35px;
+      position: absolute;
+
+      &.primary {
+        background-color: $primary;
+      }
+
+      &.secondary {
+        background-color: $secondary;
+      }
+
+      &.orange {
+        background-color: $orange;
+      }
+
+      &.blue {
+        background-color: $blue;
+      }
+
+      &.pink {
+        background-color: #bc05ee;
+      }
+
+      &.purple {
+        background-color: #1d03be;
+      }
+    }
+
+    .title {
+      margin: 15px 0;
+      font-weight: 600;
+    }
+  }
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 40px 20px;
+  gap: 15px;
+  background-color: white;
+
+  .stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   body {
     font-size: 12px;

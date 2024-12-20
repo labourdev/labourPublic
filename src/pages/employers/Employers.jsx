@@ -14,6 +14,7 @@ import MainBtn from "../../components/buttons/mainBtn/MainBtn";
 import Triangle from "../../images/sketches/Triangle";
 import Star from "../../images/icons/Star";
 import GetInTouch from "../../components/getInTouch/GetInTouch";
+import Stepper from "../../components/stepper/Stepper";
 
 const Employers = () => {
   return (
@@ -82,16 +83,7 @@ const Employers = () => {
           </div>
         </div>
         <div className="mt-50">
-          <div className="horizontal-line"></div>
-          <div className="sections-wrapper d-flex justify-content-between gap-25">
-            {howItWorksData?.map((card, index) => (
-              <div key={index}>
-                <div className={`step ${card.color}`}>0{index + 1}</div>
-                <div className="title">{card.title}</div>
-                <div>{card.desc}</div>
-              </div>
-            ))}
-          </div>
+          <Stepper data={howItWorksData} />
         </div>
       </div>
       <div className="request-staff">

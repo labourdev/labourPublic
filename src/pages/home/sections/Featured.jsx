@@ -1,12 +1,6 @@
 import React from "react";
-import MainBtn from "../../../components/buttons/mainBtn/MainBtn";
-import LazySvgImg from "../../../components/lazySvg/LazySvgImg";
-
-import JobBag from "../../../images/icons/JobBag";
-import JobBag2 from "../../../images/icons/JobBag2";
-import Location from "../../../images/icons/Location";
-
 import { featuredJobsData } from "../data/homeData";
+import JobCard from "../../../components/jobCard/JobCard";
 
 const Featured = () => {
   return (
@@ -26,25 +20,8 @@ const Featured = () => {
       </div>
       <div className="sections-wrapper">
         {featuredJobsData?.map((card, index) => (
-          <div className="card" key={index}>
-            <LazySvgImg SvgComponent={JobBag} />
-            <div className="title">{card.title}</div>
-            <div className="location-wrapper">
-              <div className="country">
-                <LazySvgImg SvgComponent={Location} /> {card.country}
-              </div>
-              |<div>{card.city}</div>|<div>{card.location}</div>
-            </div>
-            <div className="job-duration">
-              <LazySvgImg SvgComponent={JobBag2} />
-              {card.duration}
-            </div>
-            <div className="job-type-wrapper">
-              <div className="job-type">{card.type}</div>
-              {card.isRemote && <div className="is-remote">Remote</div>}
-            </div>
-            <div>{card.desc}</div>
-            <MainBtn title={"Apply Now"} />
+          <div key={index}>
+            <JobCard card={card} />
           </div>
         ))}
       </div>

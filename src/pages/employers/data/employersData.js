@@ -81,12 +81,12 @@ export const howItWorksData = [
   },
   {
     title: "Ongoing Support",
-    color: "blue",
+    color: "pink",
     desc: "Our commitment doesn’t end with placement. We offer continuous support, ensuring satisfaction and addressing any concerns that arise.",
   },
   {
     title: "Compliance and Safety",
-    color: "blue",
+    color: "purple",
     desc: "Every worker we place is fully compliant with industry regulations and trained in the latest safety protocols.",
   },
 ];

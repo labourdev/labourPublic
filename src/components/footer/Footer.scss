@@ -31,6 +31,7 @@ a {
       padding-top: 0;
       li {
         margin-bottom: 15px;
+        text-wrap: nowrap;
       }
       li::marker {
         color: $primary;

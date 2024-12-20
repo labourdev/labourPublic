@@ -1,0 +1,121 @@
+@import "../../index.scss";
+
+.job-seekers-container {
+  .hero-section {
+    padding-bottom: 0;
+
+    .texts {
+      max-width: 550px;
+
+      .main-section-title {
+        text-align: start;
+        margin-bottom: 20px;
+      }
+    }
+    img {
+      position: relative;
+      bottom: -40px;
+      width: 600px;
+    }
+  }
+
+  .benefits-section {
+    background-color: $primary;
+    z-index: 1000;
+    position: relative;
+
+    .cards {
+      margin: 40px 0;
+      .card {
+        background-color: white;
+        border-radius: 15px;
+        width: 213px;
+        min-height: 240px;
+        padding: 25px;
+
+        .title {
+          font-weight: 600;
+          font-size: 16px;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+
+  .job-opening-section {
+  }
+
+  .process-section {
+    background-color: $primary;
+    padding-bottom: 60px;
+    position: relative;
+    .triangles {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  .employee-benefits {
+    background-color: $secondary;
+    .main-section-title {
+      color: white;
+    }
+    .desc {
+      color: white;
+    }
+
+    .cards {
+      margin-top: 40px;
+
+      .card {
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+        width: 213px;
+        min-height: 210px;
+        padding: 25px;
+
+        .title {
+          font-weight: 600;
+          font-size: 16px;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+
+  .career-advice-section {
+    .cards {
+      margin: 40px 0;
+      .card {
+        background-color: white;
+        border-radius: 15px;
+        width: 350px;
+        min-height: 14px;
+        padding: 25px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+
+        .title {
+          font-weight: 600;
+          font-size: 16px;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+
+  .team-experience-section {
+    padding-top: 0;
+  }
+
+  .bottom-banner {
+    background-color: $primary;
+    margin: 0 7% 80px;
+    border-radius: 15px;
+  }
+}
