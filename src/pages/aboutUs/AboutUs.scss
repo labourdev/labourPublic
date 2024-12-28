@@ -128,14 +128,14 @@
     background-color: $bage;
     position: relative;
 
-    .wrapper {
-      padding-top: 200px;
-    }
-
     .vision-triangles {
       position: absolute;
       transform: scaleY(-1);
       top: 0;
+    }
+
+    .page-section-padding {
+      padding: 0 7%;
     }
 
     .content {
@@ -151,7 +151,7 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .about-us-container {
     .hero-wrapper {
       .hero-section {
@@ -246,7 +246,6 @@
       position: relative;
 
       .wrapper {
-        padding-top: 80px;
         flex-direction: column;
       }
 
