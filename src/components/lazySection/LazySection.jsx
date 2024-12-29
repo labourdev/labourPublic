@@ -10,7 +10,7 @@ const LazySection = ({ Section }) => {
   return (
     <div ref={ref}>
       {inView && (
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div>...</div>}>
           <Section />
         </Suspense>
       )}

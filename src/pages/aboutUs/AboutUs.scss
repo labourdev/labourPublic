@@ -16,6 +16,7 @@
       padding-bottom: 0;
 
       .hero-img {
+        width: 600px;
         position: relative;
         top: 60px;
       }
@@ -24,11 +25,17 @@
 
   .vision-mession-section {
     background-color: $primary;
+    position: relative;
     padding-top: 50px;
     gap: 15%;
 
     .left-section {
       max-width: 600px;
+    }
+
+    .hero-img {
+      width: 350px;
+      height: 400px;
     }
   }
 
@@ -171,6 +178,11 @@
         .desc {
           text-align: center;
         }
+
+        .hero-img {
+          width: 300px;
+          height: 300px;
+        }
       }
     }
 
@@ -189,6 +201,11 @@
 
       .image-wrapper {
         margin-top: 20px;
+      }
+
+      .hero-img {
+        width: 200px;
+        height: 200px;
       }
     }
 
