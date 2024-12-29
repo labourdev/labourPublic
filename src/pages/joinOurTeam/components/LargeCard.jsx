@@ -11,19 +11,22 @@ const LargeCard = ({ data }) => {
       <div className="page-section-padding">
         <div className="main-section-title">{data.title}</div>
         <div className="desc text-center">{data.desc}</div>
-        <div className="d-flex justify-content-between mt-50">
+        <div className="content-wrapper d-flex justify-content-between mt-50">
           <div>
             {data.sublist.map((sub, index) => (
               <div key={index} className="mb-30">
                 <div className="sub-title mb-10">{sub.title}</div>
                 {sub.points.map((point, index) => (
                   <div key={index} className="point mb-10">
-                    <img
-                      src="/labourPublic/images/ticIcon.png"
-                      alt=""
-                      className="mr-10"
-                    />
-                    {point.text}
+                    <div className="d-flex align-items-start">
+                      <img
+                        src="/labourPublic/images/ticIcon.png"
+                        alt=""
+                        className="mr-10"
+                      />
+                      <div>{point.text}</div>
+                    </div>
+
                     <ul className="sub-points-wrapper ml-10">
                       {point.subpoints?.map((subpoint, index) => (
                         <li key={index}>{subpoint.text}</li>

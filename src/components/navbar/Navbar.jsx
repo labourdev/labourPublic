@@ -29,8 +29,8 @@ const Navbar = () => {
             >
               Employers
             </NavLink>
-            {/* <NavLink to="/seekers">Job Seekers</NavLink> */}
-            {/* <NavLink to="/join">Join Our Team</NavLink> */}
+            <NavLink to="/jobseekers">Job Seekers</NavLink>
+            <NavLink to="/joinourteam">Join Our Team</NavLink>
             <NavLink
               to="/aboutus"
               onClick={() => setIsMobileMenuOpen((prev) => !prev)}

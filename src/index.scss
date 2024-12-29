@@ -136,6 +136,10 @@ body {
   align-items: center;
 }
 
+.align-items-start {
+  align-items: flex-start;
+}
+
 .justify-content-center {
   justify-content: center;
 }
@@ -404,6 +408,16 @@ header {
     img {
       width: 350px;
       margin-top: 20px;
+    }
+  }
+
+  .stepper-component {
+    overflow: auto;
+    width: 100%;
+
+    .horizontal-line {
+      margin: 20px 0px;
+      width: 140%;
     }
   }
 }

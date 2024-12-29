@@ -4,7 +4,7 @@ import { howItWorksData } from "../data/employersData";
 
 const HowItWorks = () => {
   return (
-    <div className="how-it-works-section">
+    <div className="how-it-works-section page-section-padding">
       <div className="d-flex flex-column align-items-center justify-content-center">
         <div className="main-section-title">Our Hiring Process</div>
         <div className="text-center mt-10">

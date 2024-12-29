@@ -10,9 +10,9 @@ const TeamExperience = () => {
         Hear from our team members about their experiences working with Labour
         Link Group.
       </div>
-      <div className="mt-30 d-flex gap-20">
+      <div className="mt-30 d-flex gap-20 cards">
         {testimonialsData?.map((card, index) => (
-          <div key={index}>
+          <div key={index} className="card">
             <Testimonial card={card} />
           </div>
         ))}
