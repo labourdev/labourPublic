@@ -224,12 +224,20 @@ header {
     align-items: center;
     font-weight: 500;
     cursor: pointer;
-    gap: 40px;
+    gap: 10px;
   }
 
   a {
     color: #333;
     text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 6px;
+    transition: color 0.5s ease, background-color 0.5s ease;
+  }
+
+  a:hover {
+    color: white; /* Text color on hover */
+    background-color: $secondary; /* Background color on hover */
   }
 }
 
