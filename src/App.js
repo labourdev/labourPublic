@@ -25,10 +25,7 @@ const router = createBrowserRouter(
       <Route path="jobseekers" element={<JobSeekers />} />
       <Route path="joinourteam" element={<JoinOurTeam />} />
     </Route>
-  ),
-  {
-    basename: "/labourPublic", // Set the basename for GitHub Pages
-  }
+  )
 );
 
 function App() {
