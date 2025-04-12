@@ -20,7 +20,12 @@ const Hero = () => {
             are in capable hands, making us your trusted partner in labour
             solutions.
           </div>
-          <div className="btn mt-30">
+          <div
+            className="btn mt-30"
+            onClick={() =>
+              window.open("https://forms.gle/FwHWi69yvHyzS8Xr7", "_blank")
+            }
+          >
             <MainBtn title={"Contact Us"} />
           </div>
         </div>

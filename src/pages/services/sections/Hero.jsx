@@ -18,7 +18,13 @@ const Hero = () => {
             are completed on time, within budget, and to the highest standards.
           </div>
         </div>
-        <MainBtn title={"Contact Us"} />
+        <div
+          onClick={() =>
+            window.open("https://forms.gle/FwHWi69yvHyzS8Xr7", "_blank")
+          }
+        >
+          <MainBtn title={"Contact Us"} />
+        </div>
       </div>
       <div className="services-workers ">
         <ServicesWorkers />
