@@ -24,7 +24,7 @@ export const servicesData = [
         desc: "Commercial and residential construction.",
       },
     ],
-    icon: "/labourPublic/images/servicesPage/Pic1.png",
+    icon: "/images/servicesPage/Pic1.png",
   },
   {
     background: "bg2",
@@ -42,7 +42,7 @@ export const servicesData = [
         desc: "Commercial and residential construction.",
       },
     ],
-    icon: "/labourPublic/images/servicesPage/Pic2.png",
+    icon: "/images/servicesPage/Pic2.png",
   },
   {
     background: "bg3",
@@ -60,7 +60,7 @@ export const servicesData = [
         desc: "Commercial and residential construction.",
       },
     ],
-    icon: "/labourPublic/images/servicesPage/Pic3.png",
+    icon: "/images/servicesPage/Pic3.png",
   },
   {
     background: "bg4",
@@ -78,7 +78,7 @@ export const servicesData = [
         desc: "Commercial and residential construction.",
       },
     ],
-    icon: "/labourPublic/images/servicesPage/Pic4.png",
+    icon: "/images/servicesPage/Pic4.png",
   },
   {
     background: "bg5",
@@ -91,7 +91,7 @@ export const servicesData = [
         desc: "Access to experienced professionals, flexibility to scale your workforce, and full compliance with safety regulations.",
       },
     ],
-    icon: "/labourPublic/images/servicesPage/Pic5.png",
+    icon: "/images/servicesPage/Pic5.png",
   },
   {
     background: "bg2",
@@ -104,7 +104,7 @@ export const servicesData = [
         desc: "Access to experienced professionals, flexibility to scale your workforce, and full compliance with safety regulations.",
       },
     ],
-    icon: "/labourPublic/images/servicesPage/Pic6.png",
+    icon: "/images/servicesPage/Pic6.png",
   },
 ];
 

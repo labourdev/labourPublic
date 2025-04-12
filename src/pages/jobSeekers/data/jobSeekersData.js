@@ -4,27 +4,27 @@ export const benefitsData = [
   {
     title: "Access to Top Projects",
     desc: "Connect with exciting and diverse projects in the commercial, residential, and civil construction sectors.",
-    icon: "/labourPublic/images/jobSeekersPage/1.png",
+    icon: "/images/jobSeekersPage/1.png",
   },
   {
     title: "Competitive Pay",
     desc: "Earn competitive rates that reflect your skills and experience.",
-    icon: "/labourPublic/images/jobSeekersPage/2.png",
+    icon: "/images/jobSeekersPage/2.png",
   },
   {
     title: "Flexible Opportunities",
     desc: "Find jobs that match your schedule, whether you’re looking for part-time, full-time, or project-based work.",
-    icon: "/labourPublic/images/jobSeekersPage/3.png",
+    icon: "/images/jobSeekersPage/3.png",
   },
   {
     title: "Career Growth",
     desc: "Benefit from ongoing support, training, and development opportunities.",
-    icon: "/labourPublic/images/jobSeekersPage/4.png",
+    icon: "/images/jobSeekersPage/4.png",
   },
   {
     title: "Safety-First Culture",
     desc: "Your safety and well-being are our top priorities, with comprehensive safety training and support.",
-    icon: "/labourPublic/images/jobSeekersPage/5.png",
+    icon: "/images/jobSeekersPage/5.png",
   },
 ];
 
@@ -96,27 +96,27 @@ export const employeeBenefitsData = [
   {
     title: "Competitive Pay",
     desc: "Earn what you deserve for your skills and experience.",
-    icon: "/labourPublic/images/jobSeekersPage/b1.png",
+    icon: "/images/jobSeekersPage/b1.png",
   },
   {
     title: "Flexible Work Schedules",
     desc: "Choose jobs that fit your lifestyle.",
-    icon: "/labourPublic/images/jobSeekersPage/b2.png",
+    icon: "/images/jobSeekersPage/b2.png",
   },
   {
     title: "Ongoing Training",
     desc: "Continuous learning and development opportunities.",
-    icon: "/labourPublic/images/jobSeekersPage/b3.png",
+    icon: "/images/jobSeekersPage/b3.png",
   },
   {
     title: "Safety Gear Provided",
     desc: "We ensure you’re equipped with the necessary safety gear for every job.",
-    icon: "/labourPublic/images/jobSeekersPage/b4.png",
+    icon: "/images/jobSeekersPage/b4.png",
   },
   {
     title: "Career Advancement",
     desc: "Opportunities to grow and advance in your field.",
-    icon: "/labourPublic/images/jobSeekersPage/b5.png",
+    icon: "/images/jobSeekersPage/b5.png",
   },
 ];
 

@@ -15,7 +15,7 @@ const Services = () => {
       <div className="wrapper d-flex align-items-center justify-content-between mt-30">
         <img
           className="services-img"
-          src="/labourPublic/images/employerPage/EmployerServices.png"
+          src="/images/employerPage/EmployerServices.png"
           alt="ServicesImage"
         />
         <div className="data-wrapper d-flex align-items-center flex-column gap-20">

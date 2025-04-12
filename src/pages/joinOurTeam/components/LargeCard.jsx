@@ -19,11 +19,7 @@ const LargeCard = ({ data }) => {
                 {sub.points.map((point, index) => (
                   <div key={index} className="point mb-10">
                     <div className="d-flex align-items-start">
-                      <img
-                        src="/labourPublic/images/ticIcon.png"
-                        alt=""
-                        className="mr-10"
-                      />
+                      <img src="/images/ticIcon.png" alt="" className="mr-10" />
                       <div>{point.text}</div>
                     </div>
 

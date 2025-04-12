@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
       </div>
       <img
-        src="/labourPublic/images/jobSeekersPage/Hero.png"
+        src="/images/jobSeekersPage/Hero.png"
         alt="HeroImage"
         loading="lazy"
       />

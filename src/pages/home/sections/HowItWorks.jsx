@@ -12,11 +12,7 @@ const HowItWorks = () => {
         </div>
       </div>
       <div className="it-workrs-sketch">
-        <img
-          src="/labourPublic/images/ItWorks.png"
-          alt="ItWorks"
-          loading="lazy"
-        />
+        <img src="/images/ItWorks.png" alt="ItWorks" loading="lazy" />
       </div>
       <Stepper data={howItWorksData} />
     </div>

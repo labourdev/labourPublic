@@ -3,7 +3,7 @@ export const largeCardsData = [
     backgroundColor: "#F9C927",
     title: "Expert Recruitment Consultants – Blue-Collar & Beyond",
     desc: "Are you a seasoned recruitment consultant with a passion for connecting the right people with the right jobs? Labour Link Group is expanding its team of expert recruiters to source top talent for a range of industries, including blue-collar and white-collar roles. If you thrive in fast-paced environments and have a knack for identifying skilled professionals, we want to hear from you.",
-    icon: "/labourPublic/images/joinOurTeamPage/largeCard1.png",
+    icon: "/images/joinOurTeamPage/largeCard1.png",
     ctaAction: "Submit your CV",
     formLink: "https://forms.gle/wQwL73z7V4ysEaWK9",
     sublist: [
@@ -49,7 +49,7 @@ export const largeCardsData = [
     backgroundColor: "#FFFFFF",
     title: "Leadership & Management Roles",
     desc: "Labour Link Group is looking for skilled professionals to lead key areas of our business operations. As we continue to grow, we are seeking experts in HR, business development, operations, WH&S, marketing, communications, IT, and more. Join our leadership team and drive the future of our company.",
-    icon: "/labourPublic/images/joinOurTeamPage/largeCard1.png",
+    icon: "/images/joinOurTeamPage/largeCard1.png",
     ctaAction: "Submit your CV",
     formLink: "https://forms.gle/wQwL73z7V4ysEaWK9",
     sublist: [
@@ -111,7 +111,7 @@ export const largeCardsData = [
     backgroundColor: "#F9C927",
     title: "Launch Your Career with Our Internship Program",
     desc: "If you’re just starting your career and looking for hands-on experience, our internship program is the perfect way to launch your journey. We offer internships across various departments, providing valuable learning opportunities in recruitment, HR, marketing, and operations.",
-    icon: "/labourPublic/images/joinOurTeamPage/largeCard1.png",
+    icon: "/images/joinOurTeamPage/largeCard1.png",
     ctaAction: "Submit your CV",
     formLink: "https://forms.gle/wQwL73z7V4ysEaWK9",
     sublist: [

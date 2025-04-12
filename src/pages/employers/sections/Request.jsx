@@ -27,7 +27,7 @@ const Request = () => {
         <div className="shrink-0">
           <img
             className="request-image"
-            src="/labourPublic/images/employerPage/Request.png"
+            src="/images/employerPage/Request.png"
             alt="request"
           />
         </div>

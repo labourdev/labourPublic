@@ -12,11 +12,7 @@ const Featured = () => {
         </div>
       </div>
       <div className="featured-jobs-sket">
-        <img
-          src="/labourPublic/images/FeaturedJobs.png"
-          alt="ItWorks"
-          loading="lazy"
-        />
+        <img src="/images/FeaturedJobs.png" alt="ItWorks" loading="lazy" />
       </div>
       <div className="sections-wrapper">
         {featuredJobsData?.map((card, index) => (

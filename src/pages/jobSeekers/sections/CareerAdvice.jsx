@@ -13,7 +13,7 @@ const CareerAdvice = () => {
         {adviceData.map((card, index) => (
           <div className="card d-flex gap-20" key={index}>
             <img
-              src="/labourPublic/images/jobSeekersPage/adviceIcon.png"
+              src="/images/jobSeekersPage/adviceIcon.png"
               alt="careerAdviceIcon"
               loading="lazy"
             />
