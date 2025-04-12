@@ -16,11 +16,7 @@ const GetInTouch = () => {
           <MainBtn title={"Contact Us"} />
         </div>
       </div>
-      <img
-        src="/labourPublic/images/InTouch.png"
-        alt="InTouch"
-        loading="lazy"
-      />
+      <img src="/images/InTouch.png" alt="InTouch" loading="lazy" />
     </div>
   );
 };

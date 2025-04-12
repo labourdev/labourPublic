@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="flex-shrink ">
           <img
             className="hero-img"
-            src="/labourPublic/images/aboutUsPage/Hero.png"
+            src="/images/aboutUsPage/Hero.png"
             alt="HeroImage"
           />
         </div>

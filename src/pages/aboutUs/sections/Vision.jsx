@@ -6,7 +6,7 @@ const Vision = () => {
       <div className="image-wrapper">
         <img
           className="hero-img"
-          src="/labourPublic/images/aboutUsPage/vision.png"
+          src="/images/aboutUsPage/vision.png"
           alt="HeroImage"
         />
       </div>
