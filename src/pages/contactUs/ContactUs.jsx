@@ -10,21 +10,19 @@ const ContactUs = () => {
   const contactUsAction = (action) => {
     switch (action) {
       case "DOWNLOAD":
-        const vCardData = `
-            BEGIN:VCARD
-            VERSION:3.0
-            FN:Rasmi Abu Baker
-            N:Abu Baker;Rasmi;;;
-            TITLE:Managing Director
-            ORG:Labour Link Group
-            TEL;TYPE=WORK,VOICE:(02) 8000 1113
-            TEL;TYPE=CELL,VOICE:0410 714 615
-            EMAIL:admin@labourlinkgroup.com.au
-            URL:https://labourlinkgroup.com.au
-            ADR;TYPE=WORK:;;150 George Street;Parramatta;NSW;2150;Australia
-            NOTE:LinkedIn - https://www.linkedin.com/company/labour-link-group\\nInstagram - https://www.instagram.com/labourlinkgroup?igsh=ZDZhYmZmdmh2Zzl6\\nFacebook - https://www.facebook.com/share/155YmdhjkUr/\\nWhatsApp - https://wa.me/61410714615
-            END:VCARD
-        `;
+        const vCardData = `BEGIN:VCARD
+VERSION:3.0
+N:Abu Baker;Rasmi;;;
+FN:Rasmi Abu Baker
+ORG:Labour Link Group
+TITLE:Managing Director
+TEL;TYPE=WORK,VOICE:(02) 8000 1113
+TEL;TYPE=CELL,VOICE:0410 714 615
+EMAIL:admin@labourlinkgroup.com.au
+URL:https://labourlinkgroup.com.au
+ADR;TYPE=WORK:;;150 George Street;Parramatta;NSW;2150;Australia
+NOTE:LinkedIn: https://www.linkedin.com/company/labour-link-group\\nInstagram: https://www.instagram.com/labourlinkgroup?igsh=ZDZhYmZmdmh2Zzl6\\nFacebook: https://www.facebook.com/share/155YmdhjkUr/\\nWhatsApp: https://wa.me/61410714615
+END:VCARD`;
 
         const blob = new Blob([vCardData], {
           type: "text/vcard;charset=utf-8",
